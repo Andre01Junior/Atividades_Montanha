@@ -1,0 +1,71 @@
+# 💻 Fundamentos de Computação e Análise de Complexidade Assintótica
+
+Este repositório reúne notas de estudo teóricas e exercícios práticos sobre os pilares fundamentais da ciência da computação: algoritmos, estruturas de dados e análise de desempenho utilizando a Notação Big-O.
+
+---
+
+## 🗺️ Sumário
+- [1. Conceitos Fundamentais](#1-conceitos-fundamentais)
+  - [O que é um Algoritmo?](#o-que-é-um-algoritmo)
+  - [Dado, Informação e Estrutura de Dados](#dado-informação-e-estrutura-de-dados)
+  - [O Impacto da Organização no Desempenho](#o-impacto-da-organização-no-desempenho)
+- [2. C Versus Python no Aprendizado de Algoritmos](#2-c-versus-python-no-aprendizado-de-algoritmos)
+- [3. Resolução dos Exercícios de Complexidade (Big-O)](#3-resolução-dos-exercícios-de-complexidade-big-o)
+- [4. Tabela de Referência Rápida](#4-tabela-de-referência-rápida)
+
+---
+
+## 1. Conceitos Fundamentais
+
+A base de qualquer sistema tecnológico apoia-se em dois pilares essenciais: as instruções que a máquina deve seguir e a forma como ela armazena o que precisa de ser processado.
+
+### O que é um Algoritmo?
+De forma simples, um algoritmo é uma **sequência de passos lógicos e finitos** criados para resolver um problema ou executar uma tarefa. 
+* **Exemplo no dia a dia (Matrícula na Faculdade):** Para se matricular, você precisa (1) aceder ao portal, (2) escolher as disciplinas e (3) confirmar a inscrição. Se tentar confirmar antes de escolher as matérias, o processo falha. Na programação, o algoritmo é precisamente esse passo a passo livre de ambiguidades.
+
+### Dado, Informação e Estrutura de Dados
+Embora parecidos, estes termos representam estágios diferentes do processamento de conhecimento:
+
+| Conceito | Definição | Exemplo Prático |
+| :--- | :--- | :--- |
+| **🎲 Dado** | Elemento bruto, isolado e sem contexto. | O número `85` ou a palavra `Aprovado`. |
+| **ℹ️ Informação** | O dado processado, contextualizado e com significado. | *"O aluno tirou nota 85 e está Aprovado."* |
+| **🗂️ Estrutura de Dados** | A forma como organizamos e guardamos os dados no sistema para otimizar o uso. | Um caderno com índice estruturado em vez de folhas soltas. |
+
+### O Impacto da Organização no Desempenho
+A maneira como estruturamos os dados afeta diretamente a velocidade de um sistema.
+> 📚 **A Analogia da Biblioteca:** Imagine procurar um livro específico na biblioteca da faculdade. Se milhares de livros estiverem jogados pelo chão de forma aleatória, levará dias para achar o que precisa. No entanto, se estiverem estruturados por área de estudo e ordem alfabética nas prateleiras, encontrará o livro em minutos.
+* **Sistemas Bancários:** Ao consultar o saldo, o sistema busca a sua conta entre milhões de outras. Sem dados estruturados eficientemente, o processo demoraria horas.
+* **Buscadores (Google):** Pesquisas entregam resultados em milissegundos porque a internet está "catalogada" em estruturas de dados otimizadas.
+
+---
+
+## 2. C Versus Python no Aprendizado de Algoritmos
+
+A escolha da linguagem no ensino de algoritmos divide opiniões entre focar no funcionamento do computador ou focar na lógica pura.
+
+### A Abordagem Técnica (Linguagem C)
+Linguagens como o C exigem que o estudante controle diretamente o hardware e o gerenciamento de memória do computador (com ponteiros e alocação manual).
+* **Vantagem:** O aluno entende exatamente o que acontece nos bastidores. As estruturas de dados deixam de ser conceitos abstratos e passam a ser compreendidas em sua essência física.
+* **Desvantagem:** A curva de aprendizado é íngreme. O iniciante gasta muito tempo corrigindo regras estritas de escrita (sintaxe) e erros de memória, o que pode desviar o foco do aprendizado da lógica pura.
+
+### A Abordagem Prática (Linguagem Python)
+Python simplifica ao máximo a escrita do código através de uma sintaxe limpa que se aproxima da linguagem humana.
+* **Vantagem:** Permite foco total na resolução do problema. É muito mais fácil traduzir o raciocínio lógico em código rapidamente, trazendo resultados imediatos que motivam o estudante.
+* **Desvantagem:** Ao esconder a complexidade em "caixas pretas", o estudante pode criar códigos funcionais sem entender o custo de memória ou de processamento envolvido, dificultando o aprendizado sobre otimização de sistemas.
+
+### Conclusão
+As duas linguagens são complementares. Python é excelente para dar os primeiros passos e consolidar a **lógica de programação**. Uma vez construída essa base, o C torna-se a ferramenta ideal para aprofundar os estudos em **estruturas de dados** e engenharia de software de baixo nível.
+
+---
+
+## 3. Resolução dos Exercícios de Complexidade (Big-O)
+
+Análise manual de complexidade de tempo no pior caso para os algoritmos propostos na Disciplina de Estruturas de Dados (Professor Alexandre de Oliveira).
+
+### Exercício 1
+```python
+def verificar_primeiro (lista):
+    if len(lista) == 0:
+        return None
+    return lista[0]
