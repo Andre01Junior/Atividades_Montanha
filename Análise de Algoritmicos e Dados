@@ -1,0 +1,64 @@
+# 💻 Algoritmos e Organização de Dados
+
+> Uma visão acadêmica e simplificada sobre os pilares fundamentais da computação.
+
+---
+
+## 📌 Apresentação
+Vivemos cercados por dispositivos digitais, mas raramente paramos para pensar em como eles realmente funcionam. A base de qualquer sistema, desde um simples aplicativo de celular até os computadores de uma universidade, apoia-se em dois pilares essenciais:
+1. **As instruções** que a máquina deve seguir.
+2. **A forma** como ela guarda o que precisa ser processado.
+
+Entender essa dinâmica é o primeiro passo para compreender a lógica da computação.
+
+---
+
+## 🗺️ Sumário
+- [⚙️ O Algoritmo](#️-o-algoritmo)
+- [📊 Dado, Informação e Estrutura](#-dado-informação-e-estrutura)
+- [⚡ Por que a Organização Importa?](#-por-que-a-organização-importa)
+  - [Exemplos no Mundo Real](#exemplos-no-mundo-real)
+
+---
+
+## ⚙️ O Algoritmo
+
+De forma simples, um algoritmo é uma **sequência de passos lógicos e finitos** criados para resolver um problema.
+
+Ele não é algo exclusivo dos computadores. Pense no processo de matrícula da faculdade:
+1. 🌐 Acessar o portal.
+2. 📚 Escolher as disciplinas.
+3. 📝 Confirmar a inscrição.
+
+Isso é um algoritmo. Se você tentar confirmar antes de escolher as matérias, o processo falha. Na tecnologia, o algoritmo é exatamente isso: o passo a passo detalhado que o programador escreve para que o computador execute uma tarefa corretamente.
+
+---
+
+## 📊 Dado, Informação e Estrutura
+
+Para que o algoritmo funcione, ele precisa de matéria-prima. É nesse ponto que precisamos separar três conceitos fundamentais que costumam ser confundidos:
+
+| Conceito | Definição | Exemplo Prático |
+| :--- | :--- | :--- |
+| **🎲 Dado** | Elemento bruto, isolado e sem contexto. Sozinho, não transmite uma mensagem clara. | O número `85` ou a palavra `Aprovado`. |
+| **ℹ️ Informação** | O dado processado, contextualizado e dotado de significado. | *"O aluno tirou nota 85 e está Aprovado."* |
+| **🗂️ Estrutura de Dados** | A forma organizacional de armazenar esses dados no sistema para otimizar seu uso. | Um caderno com índice estruturado em vez de anotações soltas. |
+
+---
+
+## ⚡ Por que a Organização Importa?
+
+A maneira como estruturamos os dados afeta diretamente a **velocidade e o desempenho** de um sistema.
+
+> 📚 **A Analogia da Biblioteca:** Imagine procurar um livro específico na biblioteca da faculdade. Se os milhares de livros estivessem jogados pelo chão de forma totalmente aleatória, você levaria dias para achar o que precisa. No entanto, como eles estão estruturados por área de estudo e ordem alfabética nas prateleiras, você consegue encontrá-lo em poucos minutos.
+
+### Exemplos no Mundo Real
+
+* **🏦 Sistemas Bancários:** Quando você confere seu saldo no aplicativo do banco, o sistema precisa encontrar a sua conta entre milhões de outras. Se os dados não estivessem perfeitamente organizados e estruturados, o aplicativo ficaria carregando por horas para uma simples consulta.
+* **🔍 Buscadores (como o Google):** Uma pesquisa na web entrega bilhões de resultados em milissegundos. Isso só é possível porque toda a internet está "catalogada" e mapeada através de estruturas de dados altamente eficientes.
+
+---
+
+## 🎓 Conclusão
+
+A eficiência tecnológica não depende apenas de hardwares potentes, mas sim de uma boa arquitetura lógica: **algoritmos inteligentes** operando sobre **estruturas de dados organizadas**.
