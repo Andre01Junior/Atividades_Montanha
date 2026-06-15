@@ -1,5 +1,5 @@
 Resenha crítica do Podcast 
-
+ 
   O debate acerca da escolha da linguagem de programação ideal para introduzir estudantes ao universo dos algoritmos reflete uma dicotomia pedagógica profunda: devemos priorizar a compreensão da infraestrutura computacional ou o desenvolvimento do pensamento lógico abstrato? Esse panorama divide a jornada acadêmica entre a abordagem técnica, personificada pela linguagem C, e a abordagem prática, representada pelo Python, evidenciando que a decisão inicial molda diretamente o perfil e as competências do futuro profissional.
 
   Por um lado, a defesa da abordagem técnica e do rigor estrutural (Modelo C) baseia-se na premissa de que um bom desenvolvedor deve, antes de tudo, dominar as engrenagens da máquina. Ao exigir o gerenciamento manual de memória, essa metodologia desmistifica o funcionamento do hardware e constrói uma base conceitual robusta. O estudante que sobrevive à íngreme curva de aprendizado do C passa a enxergar as estruturas de dados não como ferramentas mágicas, mas em sua real essência física e matemática. Contudo, o contraponto dessa rigidez é a alta fricção cognitiva. Uma sintaxe punitiva pode se tornar contraproducente quando o iniciante gasta mais energia intelectual duelando com ponteiros e pontos-e-vírgulas do que estruturando a solução lógica do problema, alimentando os índices de frustração e evasão.
