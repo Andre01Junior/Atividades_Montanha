@@ -1,19 +1,31 @@
 Algoritmos e Organização
-  Vivemos cercados por dispositivos digitais, mas raramente paramos para pensar em como eles realmente funcionam. A base de qualquer sistema, desde um simples aplicativo de celular até os computadores de uma universidade, apoia-se em dois pilares essenciais: as instruções que a máquina deve seguir e a forma como ela guarda o que precisa ser processado. Entender essa dinâmica é o primeiro passo para compreender a lógica da computação.
+  Vivemos cercados por dispositivos digitais, mas raramente paramos para pensar em como eles realmente funcionam. 
+A base de qualquer sistema, desde um simples aplicativo de celular até os computadores de uma universidade, 
+apoia-se em dois pilares essenciais: as instruções que a máquina deve seguir e a forma como ela guarda o que precisa ser processado. 
+Entender essa dinâmica é o primeiro passo para compreender a lógica da computação.
 
 O Algoritmo
   De forma simples, um algoritmo é uma sequência de passos lógicos e finitos criados para resolver um problema.
-Ele não é algo exclusivo dos computadores. Pense no processo de matrícula da faculdade: você precisa (1) acessar o portal, (2) escolher as disciplinas e (3) confirmar a inscrição. Isso é um algoritmo. Se você tentar confirmar antes de escolher as matérias, o processo falha. Na tecnologia, o algoritmo é exatamente isso: o passo a passo que o programador escreve para que o computador execute uma tarefa corretamente.
+Ele não é algo exclusivo dos computadores. Pense no processo de matrícula da faculdade: você precisa (1) acessar o portal, 
+(2) escolher as disciplinas e (3) confirmar a inscrição. Isso é um algoritmo. Se você tentar confirmar antes de escolher as matérias, 
+o processo falha. Na tecnologia, o algoritmo é exatamente isso: o passo a passo que o programador escreve para que o computador execute 
+uma tarefa corretamente.
 
 Dado, Informação e Estrutura
-  Para que o algoritmo funcione, ele precisa de matéria-prima. É nesse ponto que precisamos separar três conceitos que costumam ser confundidos:
+  Para que o algoritmo funcione, ele precisa de matéria-prima. É nesse ponto que precisamos separar três conceitos que costumam ser 
+confundidos:
  Dado: É um elemento bruto, sem contexto. Por exemplo, o número 85 ou a palavra Aprovado. Sozinhos, não dizem muita coisa.
  Informação: É o dado processado e com significado. Por exemplo: "O aluno tirou nota 85 e está Aprovado".
- Estrutura de Dados: É a forma como organizamos e guardamos esses dados no sistema para facilitar o uso. Pense nisso como a diferença entre ter anotações soltas em vários papéis ou tê-las organizadas em um caderno com índice.
+ Estrutura de Dados: É a forma como organizamos e guardamos esses dados no sistema para facilitar o uso. Pense nisso como a diferença 
+entre ter anotações soltas em vários papéis ou tê-las organizadas em um caderno com índice.
 
 Organização 
    A maneira como estruturamos os dados afeta diretamente a velocidade (o desempenho) de um sistema.
-Para ilustrar, imagine procurar um livro específico na biblioteca da faculdade. Se os milhares de livros estivessem jogados pelo chão de forma aleatória, você levaria dias para achar o que precisa. No entanto, como eles estão estruturados por área de estudo e ordem alfabética nas prateleiras, você o encontra em minutos.
+Para ilustrar, imagine procurar um livro específico na biblioteca da faculdade. Se os milhares de livros estivessem jogados pelo chão de
+forma aleatória, você levaria dias para achar o que precisa. No entanto, como eles estão estruturados por área de estudo e ordem 
+alfabética nas prateleiras, você o encontra em minutos.
 No mundo real, o impacto é o mesmo:
-  Sistemas Bancários: Quando você confere seu saldo no aplicativo do banco, o sistema precisa encontrar a sua conta entre milhões de outras. Se os dados não estivessem perfeitamente organizados (estruturados), o aplicativo ficaria carregando por horas.
-  Buscadores (como o Google): A pesquisa só entrega resultados em milissegundos porque a internet inteira está "catalogada" em estruturas de dados altamente eficientes.
+  Sistemas Bancários: Quando você confere seu saldo no aplicativo do banco, o sistema precisa encontrar a sua conta entre milhões de
+outras. Se os dados não estivessem perfeitamente organizados (estruturados), o aplicativo ficaria carregando por horas.
+  Buscadores (como o Google): A pesquisa só entrega resultados em milissegundos porque a internet inteira está "catalogada" em estruturas
+de dados altamente eficientes.
